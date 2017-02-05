@@ -5,7 +5,7 @@
     <title>Luke Schleicher - Web Developer</title>
     <meta name="description" content="Hello! I'm Luke Schleicher, a full-stack web developer based out of Chicago who works with Ruby on Rails, AngularJS, CSS3, HTML5 and git.">
     <link rel="shortcut icon" href="favicon.ico">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
     <link rel="stylesheet" href="css/stylesheet.css">
     <script src="https://use.fontawesome.com/0c3025eb87.js"></script>
   </head>
@@ -15,8 +15,8 @@
       <h1>Luke Schleicher</h1>
       <h2>Full Stack Web Developer</h2>
 
-      <p>A humanities major turned software developer with a zeal for positive user experiences and the back end code that powers them.</p>
-      <p>Experienced in Ruby on Rails, Javascript, CSS, HTML5 and Git.</p>
+      <p>I'm a software developer with a zeal for positive user experiences and the back end code that powers them.</p>
+      <p>I work with Ruby on Rails, Javascript, CSS, HTML5, Git and AWS.</p>
 
       <div class="links">
         <a href="https://www.linkedin.com/in/luke-schleicher" target="_blank"><i class="fa fa-linkedin"></i></a>
@@ -26,6 +26,8 @@
       </div>
 
       <a href="https://www.linkedin.com/in/luke-schleicher" target="_blank"><img class="profile-pic" src="images/luke_profile_pic.jpg"></a>
+
+      <p class="cta"><a href="mailto:luke.j.schleicher@gmail.com">Contact Luke</a></p>
     </header>
 
     <main>
@@ -33,45 +35,44 @@
       <h1>Projects</h1>
 
       <section class="project">
-        <h2>Danebook</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias enim, dignissimos sit quasi necessitatibus vel perspiciatis sed quisquam dolores cupiditate veritatis excepturi consequatur, minima, ducimus unde eos nobis eaque at!</p>
-        <img src="images/danebook-sample.jpeg" alt="danebook" >
+
+        <h2>
+          Danebook
+          <span class="project-links">
+            <a href="https://github.com/luke-schleicher/project_danebook" target="_blank"><i class="fa fa-github"></i></a>
+            <a href="https://pacific-sierra-79001.herokuapp.com/" target="_blank"><i class="fa fa-desktop"></i></a> 
+          </span>
+        </h2>
+
+        <p>A social network with authentication, posting, commenting, liking and friending. Technologies used: Ruby on Rails, Bootstrap, Paperclip w/ AWS for image upload, Delayed Job, AJAX, Git, and HTML5</p>
+  
+        <a href="https://pacific-sierra-79001.herokuapp.com/" target="_blank"><img src="images/danebook-sample.jpeg" alt="danebook" ></a>
       </section>
 
       <section class="project">
-        <h2>Congress App</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias enim, dignissimos sit quasi necessitatibus vel perspiciatis sed quisquam dolores cupiditate veritatis excepturi consequatur, minima, ducimus unde eos nobis eaque at!</p>
-        <img src="images/congress-app-sample.jpeg" alt="congress app" >
+
+        <h2>
+          Congress App
+          <span class="project-links">
+            <a href="https://github.com/luke-schleicher/congress-tracker" target="_blank"><i class="fa fa-github"></i></a>
+            <a href="https://congress-tracking-app.herokuapp.com/" target="_blank"><i class="fa fa-desktop"></i></a> 
+          </span>
+        </h2>
+
+        <p>A RoR-powered app that allows visitors to discover their representatives in Congress, view the bills they recently voted for, and how they voted. Pulls data from the Sunlight API, and uses Google Maps Geolocator API to pinpoint visitor location. Emails configured with SendGrid and Delayed Jobs. Built over the course of a 3-day hackathon with 3 other developers.</p>
+   
+        <a href="https://congress-tracking-app.herokuapp.com/" target="_blank"><img src="images/congress-app-sample.jpeg" alt="congress app" ></a>
       </section>
 
       <section class="project">
-        <h2>Train Tracker</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias enim, dignissimos sit quasi necessitatibus vel perspiciatis sed quisquam dolores cupiditate veritatis excepturi consequatur, minima, ducimus unde eos nobis eaque at!</p>
-        <img src="images/danebook-sample.jpeg" alt="danebook" >
-      </section>
-
-      <section class="project">
-        <h2>Chicago Parks App</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias enim, dignissimos sit quasi necessitatibus vel perspiciatis sed quisquam dolores cupiditate veritatis excepturi consequatur, minima, ducimus unde eos nobis eaque at!</p>
-        <img src="images/danebook-sample.jpeg" alt="danebook" >
-      </section>
-
-      <section class="project">
-        <h2>Fideligard</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias enim, dignissimos sit quasi necessitatibus vel perspiciatis sed quisquam dolores cupiditate veritatis excepturi consequatur, minima, ducimus unde eos nobis eaque at!</p>
-        <img src="images/danebook-sample.jpeg" alt="danebook" >
-      </section>
-
-      <section class="project">
-        <h2>Djello</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias enim, dignissimos sit quasi necessitatibus vel perspiciatis sed quisquam dolores cupiditate veritatis excepturi consequatur, minima, ducimus unde eos nobis eaque at!</p>
-        <img src="images/danebook-sample.jpeg" alt="danebook" >
-      </section>
-
-      <section class="project">
-        <h2>Final Project</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias enim, dignissimos sit quasi necessitatibus vel perspiciatis sed quisquam dolores cupiditate veritatis excepturi consequatur, minima, ducimus unde eos nobis eaque at!</p>
-        <img src="images/danebook-sample.jpeg" alt="danebook" >
+        <h2>
+          Metra Train Tracker
+          <span class="project-links">
+            <a href="https://github.com/luke-schleicher/train-catcher/tree/master/Train%20Catcher" target="_blank"><i class="fa fa-github"></i></a>
+          </span>  
+        </h2>
+        <p>An app that tells you how much time you have to catch the next Metra at your nearest train station. Built with Metra CSV train schedules, freegeoip.net, Google Maps location API, Ruby and Sinatra as part of a 1-day hackathon.</p> 
+        <img src="images/train-tracker.jpeg" alt="danebook" >
       </section>
 
     </main>
