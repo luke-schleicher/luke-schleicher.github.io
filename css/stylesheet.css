@@ -74,7 +74,6 @@ p {
 
 header {
   background: #0b5a8e;
-  background-repeat: repeat;
   height: 100vh;
   max-width: 280px;
   padding: 20px 30px;
@@ -164,19 +163,27 @@ main h1 {
 .project img {
   max-width: 100%;
   border-radius: 5px;
+  border: 1px solid #ddd;
 }
 
 @media (max-width: 991px) {
   header {
     position: initial;
     max-width: initial;
+    padding: 15px;
+    height: auto;
   }
   .links {
     position: initial;
+    margin-bottom: 20px;
   }
   main {
     position: initial;
     max-width: initial;
-    padding: 20px;
+    padding: 15px;
+  }
+  .project {
+    padding: 15px;
+    margin-bottom: 15px;
   }
 }
