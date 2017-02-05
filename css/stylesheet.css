@@ -132,7 +132,8 @@ header p {
 .cta {
   text-align: center;
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 400;
+  text-transform: uppercase;
 }
 
 .cta a {
@@ -205,18 +206,17 @@ main h1 {
 
 @media (max-width: 767px) {
   header {
-    position: initial;
-    max-width: initial;
+    position: static;
+    max-width: 100%;
     padding: 15px;
     height: auto;
   }
   .links {
-    position: initial;
     margin-bottom: 20px;
   }
   main {
-    position: initial;
-    max-width: initial;
+    position: static;
+    max-width: 100%;
     padding: 15px;
   }
   .project {
