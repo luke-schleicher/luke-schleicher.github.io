@@ -1,12 +1,11 @@
 # Luke Schleicher
 
-## Full Stack Web Developer
+## Software Engineer
 
-A humanities major turned software developer with a zeal for positive user experiences and the back end code that powers them.
+Hi there! I'm a software engineer interested in solving challenging and important problems.
 
-Experienced in Ruby on Rails, Javascript, CSS, HTML5 and Git.
+Recently I've been working with TypeScript, React, Redux, Ruby, Docker and Google Cloud Platform at [Curatess](https://github.com/Curatess).
 
 [LinkedIn](https://www.linkedin.com/in/luke-schleicher)
-[Blog](https://medium.com/@luke.j.schleicher)
 [Github](https://github.com/luke-schleicher/)
 [Email](mailto:luke.j.schleicher@gmail.com)

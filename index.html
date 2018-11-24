@@ -2,93 +2,45 @@
 <html>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Luke Schleicher - Web Developer</title>
-    <meta name="description" content="Hello! I'm Luke Schleicher, a full-stack web developer based out of Chicago experienced with Ruby on Rails, AngularJS, CSS3, HTML5 and Git.">
-    <link rel="shortcut icon" href="favicon.ico">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
-    <link rel="stylesheet" href="css/stylesheet.css">
+    <title>Luke Schleicher - Software Engineer</title>
+    <meta name="description" content="I'm a software engineer interested in solving challenging and important problems.">
+    <link rel="shortcut icon" href="assets/images/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:300,600,900" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/stylesheet.css">
     <script src="https://use.fontawesome.com/0c3025eb87.js"></script>
   </head>
   <body>
 
-    <header>
-      <h1>Luke Schleicher</h1>
-      <h2>Full Stack Web Developer</h2>
-
-      <p>I'm a software developer with a zeal for positive user experiences and the back end code that powers them. I'm excited about tackling meaningful human problems through code.</p>
-      <p>I work with Ruby, Ruby on Rails, Javascript, AngularJS, CSS3, HTML5, Git and AWS.</p>
-
-      <div class="links">
-        <a href="https://www.linkedin.com/in/luke-schleicher" target="_blank"><i class="fa fa-linkedin"></i></a>
-        <a href="https://medium.com/@luke.j.schleicher" target="_blank"><i class="fa fa-medium"></i></a>
-        <a href="https://github.com/luke-schleicher/" target="_blank"><i class="fa fa-github"></i></a>
-        <a href="resume.pdf" target="_blank"><i class="fa fa-file-text-o"></i></a>      
-      </div>
-
-      <a href="https://www.linkedin.com/in/luke-schleicher" target="_blank"><img class="profile-pic" src="images/luke_profile_pic.jpg"></a>
-
-      <p class="cta"><a href="mailto:luke.j.schleicher@gmail.com">Contact Luke</a></p>
-    </header>
-
     <main>
 
-      <h1>Projects</h1>
+      <div class="card slideDown">
 
-      <section class="project">
+        <div class="top">
 
-        <h2>
-          Degree Planner for the Graduate Institute of Applied Linguistics
-          <span class="project-links">
-            <a href="https://github.com/luke-schleicher/gial-degree-planner" target="_blank"><i class="fa fa-github"></i></a>
-            <a href="http://gial-demo.herokuapp.com/" target="_blank"><i class="fa fa-desktop"></i></a> 
-          </span>
-        </h2>
+          <div class="left">
+            <a href="https://www.linkedin.com/in/luke-schleicher" target="_blank" class="profile-pic-link">
+              <img class="profile-pic" src="assets/images/luke_profile_pic.jpg">
+            </a>
+          </div>
 
-        <p>An application that allows advisors at the Graduate Institute of Applied Linguistics to build a student’s graduation plan, schedule classes and print the plan for their records. It also allows admins to build degrees, create courses, schedule classes, manage advisors, and view enrollment numbers. This will save advisors hundreds of hours annually.</p>
-  
-        <a href="https://github.com/luke-schleicher/gial-degree-planner" target="_blank"><img src="images/gial.jpg" alt="danebook" ></a>
-      </section>
+          <div class="right">
+            <h1>Luke Schleicher</h1>
+            <h2>Software Engineer</h2>
+          </div>
 
-      <section class="project">
+        </div>
 
-        <h2>
-          Danebook
-          <span class="project-links">
-            <a href="https://github.com/luke-schleicher/project_danebook" target="_blank"><i class="fa fa-github"></i></a>
-            <a href="https://pacific-sierra-79001.herokuapp.com/" target="_blank"><i class="fa fa-desktop"></i></a> 
-          </span>
-        </h2>
+        <p>Hi there! I'm a software engineer interested in solving challenging and important problems.</p>
+        <p>Recently I've been working with TypeScript, React, Redux, Ruby, Docker and Google Cloud Platform at <a href="https://www.curatess.com/" target="_blank">Curatess</a>.</p>
 
-        <p>A social network with authentication, posting, commenting, liking and friending. Technologies used: Ruby on Rails, Bootstrap, Paperclip w/ AWS for image upload, Delayed Job, AJAX, Git, and HTML5</p>
-  
-        <a href="https://github.com/luke-schleicher/project_danebook" target="_blank"><img src="images/danebook-sample.jpeg" alt="danebook" ></a>
-      </section>
+        <div class="links">
+          <a href="https://www.linkedin.com/in/luke-schleicher" target="_blank"><i class="fa fa-linkedin"></i></a>
+          <a href="https://github.com/luke-schleicher/" target="_blank"><i class="fa fa-github"></i></a>
+          <a href="assets/resume.pdf" target="_blank"><i class="fa fa-file-text-o"></i></a>
+          <a href="mailto:luke.j.schleicher@gmail.com" ><i class="fa fa-envelope"></i></a>
+        </div>
 
-      <section class="project">
-
-        <h2>
-          Congress App
-          <span class="project-links">
-            <a href="https://github.com/luke-schleicher/congress-tracker" target="_blank"><i class="fa fa-github"></i></a>
-            <a href="https://congress-tracking-app.herokuapp.com/" target="_blank"><i class="fa fa-desktop"></i></a> 
-          </span>
-        </h2>
-
-        <p>A RoR-powered app that allows visitors to discover their representatives in Congress, view the bills they recently voted for, and how they voted. Pulls data from the Sunlight API, and uses Google Maps Geolocator API to pinpoint visitor location. Emails configured with SendGrid and Delayed Jobs. Built over the course of a 3-day hackathon with 3 other developers.</p>
-   
-        <a href="https://github.com/luke-schleicher/congress-tracker" target="_blank"><img src="images/congress-app-sample.jpeg" alt="congress app" ></a>
-      </section>
-
-      <section class="project">
-        <h2>
-          Metra Train Tracker
-          <span class="project-links">
-            <a href="https://github.com/luke-schleicher/train-tracker" target="_blank"><i class="fa fa-github"></i></a>
-          </span>  
-        </h2>
-        <p>An app that tells you how much time you have to catch the next Metra at your nearest train station. Built with Metra CSV train schedules, freegeoip.net, Google Maps location API, Ruby and Sinatra as part of a 1-day hackathon.</p> 
-        <a href="https://github.com/luke-schleicher/train-tracker" target="_blank"><img src="images/train-tracker.jpeg" alt="danebook" ></a>
-      </section>
+      </div>
 
     </main>
 
