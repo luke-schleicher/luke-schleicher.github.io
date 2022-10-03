@@ -2,9 +2,9 @@
 
 ## Software Engineer
 
-Hi there! I'm a software engineer interested in solving challenging and important problems.
+Hi there! I'm a T-shaped backend engineer who likes working on meaningful tech products with healthy teams.
 
-Recently I've been working with TypeScript, React, Redux, Ruby, Docker and Google Cloud Platform at [Curatess](https://github.com/Curatess).
+Recently I've been working with Node, TypeScript, MySQL, and AWS at [Hallow](https://github.com/hallow-inc).
 
 [LinkedIn](https://www.linkedin.com/in/luke-schleicher)
 [Github](https://github.com/luke-schleicher/)
